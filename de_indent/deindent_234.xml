@@ -1,0 +1,641 @@
+<EMGLabExam version="1.0">
+	<EMGData name="Exam">
+		<EMGparam name="RID" value="234" />
+		<EMGparam name="Visit Number" value="XXXXXXXX" />
+		<EMGparam name="Exam Date" value="2024-mm-dd hh:MM:ss" />
+		<EMGparam name="Teaching" value="no" />
+		<EMGparam name="Locked" value="yes" />
+		<EMGparam name="Attending" value="Eric Logigian, M.D." />
+		<EMGparam name="Signed On" value="2024-mm-dd hh:MM:ss" />
+		<EMGparam name="Billed" value="yes" />
+		<EMGparam name="Billed On" value="2024-mm-dd hh:MM:ss" />
+		<EMGparam name="CIS Upload" value="yes" />
+		<EMGparam name="Uploaded On" value="2024-mm-dd hh:MM:ss" />
+		<EMGparam name="Exam Place" value="0" />
+		<EMGparam name="OrderID" value="XXXXXXXX" />
+	</EMGData>
+	<EMGData name="Patient">
+		<EMGparam name="PID" value="XXXXXXXX" />
+		<EMGparam name="First Name" value="XXXXXXXX" />
+		<EMGparam name="Last Name" value="XXXXXXXX" />
+		<EMGparam name="DOB" value="1967-mm-dd hh:MM:ss" />
+		<EMGparam name="Height" value="66" />
+		<EMGparam name="Weight" value="0" />
+		<EMGparam name="Gender" value="Female" />
+		<EMGparam name="Phone" value="" />
+	</EMGData>
+	<EMGData name="Location">
+		<EMGparam name="Location" value="Strong Memorial Hospital" />
+		<EMGparam name="Address1" value="601 Elmwood Avenue, Box 673" />
+		<EMGparam name="Address2" value="Rochester, New York 14642" />
+		<EMGparam name="Phones" value="Appts: (585) 275-4568   Fax: (585) 784-7919" />
+		<EMGparam name="OmegaID" value="10420" />
+	</EMGData>
+	<EMGData name="Final Diagnosis">
+		<EMGData name="L5 Radiculopathy">
+			<EMGparam name="ICD10" value="M54.16" />
+			<EMGparam name="ICD10 Description" value="Lumbar radiculopathy" />
+		</EMGData>
+		<EMGData name="Weakness">
+			<EMGparam name="ICD10" value="M62.81" />
+			<EMGparam name="ICD10 Description" value="Muscle weakness" />
+		</EMGData>
+		<EMGData name="Numbness">
+			<EMGparam name="ICD10" value="R20.0" />
+			<EMGparam name="ICD10 Description" value="Anesthesia of skin" />
+		</EMGData>
+		<EMGData name="Sensorimotor Polyneuropathy, Axonal">
+			<EMGparam name="ICD10" value="G60.9" />
+			<EMGparam name="ICD10 Description" value="Hereditary and idiopathic neuropathy, unspecified" />
+		</EMGData>
+	</EMGData>
+	<EMGData name="Referring Diagnosis">
+		<EMGData name="L5 Radiculopathy">
+			<EMGparam name="ICD10" value="M54.16" />
+			<EMGparam name="ICD10 Description" value="Lumbar radiculopathy" />
+		</EMGData>
+		<EMGData name="Weakness">
+			<EMGparam name="ICD10" value="M62.81" />
+			<EMGparam name="ICD10 Description" value="Muscle weakness" />
+		</EMGData>
+		<EMGData name="Numbness">
+			<EMGparam name="ICD10" value="R20.0" />
+			<EMGparam name="ICD10 Description" value="Anesthesia of skin" />
+		</EMGData>
+		<EMGData name="Sensorimotor Polyneuropathy, Axonal">
+			<EMGparam name="ICD10" value="G60.9" />
+			<EMGparam name="ICD10 Description" value="Hereditary and idiopathic neuropathy, unspecified" />
+		</EMGData>
+	</EMGData>
+	<EMGData name="Exam Providers">
+		<EMGData name="Eric Logigian, M.D.">
+			<EMGparam name="ProviderID" value="8" />
+			<EMGparam name="Role" value="Attending" />
+			<EMGparam name="Last Name" value="Logigian" />
+			<EMGparam name="First Name" value="Eric" />
+			<EMGparam name="Middle Name" value="" />
+			<EMGData name="Authorization">
+				<EMGparam name="AD" value="urmc-sh\elogigian" />
+				<EMGparam name="EMAIL" value="Eric_Logigian@urmc.rochester.edu" />
+				<EMGparam name="SMHSER" value="10549" />
+			</EMGData>
+		</EMGData>
+		<EMGData name="Dr. Catherine Craven">
+			<EMGparam name="ProviderID" value="7034" />
+			<EMGparam name="Role" value="Provider" />
+			<EMGparam name="Last Name" value="Craven" />
+			<EMGparam name="First Name" value="Catherine" />
+			<EMGparam name="Middle Name" value="" />
+			<EMGData name="Authorization" />
+		</EMGData>
+		<EMGData name="Dr. Jonathan Stone">
+			<EMGparam name="ProviderID" value="5408" />
+			<EMGparam name="Role" value="Attending Referrer" />
+			<EMGparam name="Last Name" value="Stone" />
+			<EMGparam name="First Name" value="Jonathan" />
+			<EMGparam name="Middle Name" value="" />
+			<EMGData name="Authorization">
+				<EMGparam name="SMHSER" value="40269" />
+			</EMGData>
+		</EMGData>
+		<EMGData name="Cassondra Mejak, NP">
+			<EMGparam name="ProviderID" value="6271" />
+			<EMGparam name="Role" value="Referrer" />
+			<EMGparam name="Last Name" value="Mejak" />
+			<EMGparam name="First Name" value="Cassondra" />
+			<EMGparam name="Middle Name" value="" />
+			<EMGData name="Authorization" />
+		</EMGData>
+	</EMGData>
+	<EMGData name="Patient History">
+		<EMGtext>XXXXX XXXXXXXX is a 57 year old diabetic female referred by Dr. Stone and Cassondra Mejak NP of neurosurgery for evaluation of L5 versus sciatic neuropathy in the setting of prior L5-S1 decompression in 2021.</EMGtext>
+		<EMGtext />
+		<EMGtext>XXX following her prior surgery, she reported immediate relief of her radicular pain (shooting down the back of her left leg to her lateral leg and into the dorsum of her foot). She was stable until April of 2023 when, in the absence of trauma or any other obvious trigger, she had sudden recurrence of her prior radicular pain although now more concentrated in her distal left lower extremity below the knee down the lateral leg and into the dorsum of her foot. She also noted some mild foot extensor weakness with a few falls or near falls (balance issues). She underwent repeat MRI L spine m/24 which showed continued L5 disc extrusion with cord narrowing and foraminal narrowing at L5-S1 in addition to expected post surgical changes.</EMGtext>
+		<EMGtext />
+		<EMGtext>XXXXX has a medical history relevant for T2DM diagnosed at least 15 years ago and presumed history of diabetic polyneuropathy.</EMGtext>
+		<EMGtext />
+		<EMGtext>XXXXX Kanan completed a time out procedure to verify their identity, including first and last name, date of birth, and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.</EMGtext>
+	</EMGData>
+	<EMGData name="Clinical Examination">
+		<EMGtext />
+		<EMGtext>Motor: Normal bulk and tone</EMGtext>
+		<EMGtext>
+			<EMGInsert name="Muscles Tension" />
+		</EMGtext>
+		<EMGtext>Sensory: Touch-pressure intact but relatively reduced over the dorsum and lateral aspect of the left foot and lateral calf. Intact pinprick, vibration 8/8 at toes, and proprioception</EMGtext>
+		<EMGtext>
+			<EMGInsert name="Reflexes" />
+		</EMGtext>
+		<EMGtext>Gait: normal base and stride length</EMGtext>
+	</EMGData>
+	<EMGData name="Neuromuscular Ultrasound">
+		<EMGtext />
+		<EMGtext>
+			<EMGInsert name="Peripheral Nerves US" />
+		</EMGtext>
+		<EMGtext />
+	</EMGData>
+	<EMGData name="Reflexes">
+		<EMGData>
+			<EMGparam name="Reflex" value="Biceps" />
+			<EMGparam name="R" value="2" />
+			<EMGparam name="L" value="2" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Triceps" />
+			<EMGparam name="R" value="2" />
+			<EMGparam name="L" value="2" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Brachioradialis" />
+			<EMGparam name="R" value="2" />
+			<EMGparam name="L" value="2" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Patellar" />
+			<EMGparam name="R" value="J1" />
+			<EMGparam name="L" value="J1" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Achilles" />
+			<EMGparam name="R" value="0" />
+			<EMGparam name="L" value="0" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Plantars" />
+			<EMGparam name="R" value="down" />
+			<EMGparam name="L" value="down" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Muscles Tension">
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Hip flexion" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Hip adduction" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Hip extension" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Hip abduction" />
+			<EMGparam name="R" value="4" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Knee flexion" />
+			<EMGparam name="R" value="4" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Knee extension" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Ankle dorsi-flexion" />
+			<EMGparam name="R" value="4+" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Ankle plantar-flexion" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Ankle inversion" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Ankle eversion" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Toe extension" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity" />
+			<EMGparam name="Muscle" value="Toe flexion" />
+			<EMGparam name="R" value="5" />
+			<EMGparam name="L" value="5" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Peripheral Nerves US">
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular" />
+			<EMGparam name="Site" value="fib head" />
+			<EMGparam name="Side" value="Left" />
+			<EMGparam name="CSA" value="14.40000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular" />
+			<EMGparam name="Site" value="pop fossa" />
+			<EMGparam name="Side" value="Left" />
+			<EMGparam name="CSA" value="14.50000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Motor Nerve Conduction">
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular.L/EDB" />
+			<EMGparam name="Stimulus Site" value="Ankle" />
+			<EMGparam name="Latency" value="5.00000" />
+			<EMGparam name="Amplitude" value="5.40000" />
+			<EMGparam name="Conduction Velocity" value="" />
+			<EMGparam name="Distance" value="90.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular.L/EDB" />
+			<EMGparam name="Stimulus Site" value="Fib head" />
+			<EMGparam name="Latency" value="12.60000" />
+			<EMGparam name="Amplitude" value="2.40000" />
+			<EMGparam name="Conduction Velocity" value="34.00000" />
+			<EMGparam name="Distance" value="260.00000" />
+			<EMGparam name="Normal" value="no" />
+			<EMGparam name="Notes">
+				<EMGtext>drop in amplitude due to accessory peroneal anastomosis: normal variant</EMGtext>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular.L/EDB" />
+			<EMGparam name="Stimulus Site" value="Pop fossa" />
+			<EMGparam name="Latency" value="15.40000" />
+			<EMGparam name="Amplitude" value="2.60000" />
+			<EMGparam name="Conduction Velocity" value="43.00000" />
+			<EMGparam name="Distance" value="120.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular.L/EDB" />
+			<EMGparam name="Stimulus Site" value="Acc Fibular" />
+			<EMGparam name="Latency" value="6.60000" />
+			<EMGparam name="Amplitude" value="4.60000" />
+			<EMGparam name="Conduction Velocity" value="" />
+			<EMGparam name="Distance" value="190.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular.L/TA" />
+			<EMGparam name="Stimulus Site" value="Fib head" />
+			<EMGparam name="Latency" value="1.98000" />
+			<EMGparam name="Amplitude" value="3.40000" />
+			<EMGparam name="Conduction Velocity" value="" />
+			<EMGparam name="Distance" value="50.00000" />
+			<EMGparam name="Normal" value="no" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Fibular.L/TA" />
+			<EMGparam name="Stimulus Site" value="Pop fossa" />
+			<EMGparam name="Latency" value="4.70000" />
+			<EMGparam name="Amplitude" value="3.80000" />
+			<EMGparam name="Conduction Velocity" value="44.00000" />
+			<EMGparam name="Distance" value="120.00000" />
+			<EMGparam name="Normal" value="no" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Tibial.L/AHB" />
+			<EMGparam name="Stimulus Site" value="Ankle" />
+			<EMGparam name="Latency" value="5.10000" />
+			<EMGparam name="Amplitude" value="12.30000" />
+			<EMGparam name="Conduction Velocity" value="" />
+			<EMGparam name="Distance" value="90.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Tibial.L/AHB" />
+			<EMGparam name="Stimulus Site" value="Pop fossa" />
+			<EMGparam name="Latency" value="13.50000" />
+			<EMGparam name="Amplitude" value="9.60000" />
+			<EMGparam name="Conduction Velocity" value="43.00000" />
+			<EMGparam name="Distance" value="360.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Tibial.R/AHB" />
+			<EMGparam name="Stimulus Site" value="Ankle" />
+			<EMGparam name="Latency" value="4.00000" />
+			<EMGparam name="Amplitude" value="12.20000" />
+			<EMGparam name="Conduction Velocity" value="" />
+			<EMGparam name="Distance" value="90.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Sensory Nerve Conduction">
+		<EMGData>
+			<EMGparam name="Nerve" value="Medial plantar.L" />
+			<EMGparam name="Stimulus Site" value="Med sole" />
+			<EMGparam name="Segment" value="Med sole-Ankle" />
+			<EMGparam name="Latency" value="absent" />
+			<EMGparam name="Amplitude" value="absent" />
+			<EMGparam name="Conduction Velocity" value="absent" />
+			<EMGparam name="Distance" value="absent" />
+			<EMGparam name="Normal" value="no" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Superficial Fibular.L" />
+			<EMGparam name="Stimulus Site" value="Lower leg" />
+			<EMGparam name="Segment" value="Lower leg-Ankle" />
+			<EMGparam name="Latency" value="absent" />
+			<EMGparam name="Amplitude" value="absent" />
+			<EMGparam name="Conduction Velocity" value="absent" />
+			<EMGparam name="Distance" value="100.00000" />
+			<EMGparam name="Normal" value="no" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Superficial Fibular.R" />
+			<EMGparam name="Stimulus Site" value="Lower leg" />
+			<EMGparam name="Segment" value="Lower leg-Ankle" />
+			<EMGparam name="Latency" value="absent" />
+			<EMGparam name="Amplitude" value="absent" />
+			<EMGparam name="Conduction Velocity" value="absent" />
+			<EMGparam name="Distance" value="100.00000" />
+			<EMGparam name="Normal" value="no" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Sural.L" />
+			<EMGparam name="Stimulus Site" value="Calf" />
+			<EMGparam name="Segment" value="Calf-Lat mall" />
+			<EMGparam name="Latency" value="3.30000" />
+			<EMGparam name="Amplitude" value="5.00000" />
+			<EMGparam name="Conduction Velocity" value="36.00000" />
+			<EMGparam name="Distance" value="120.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Sural.R" />
+			<EMGparam name="Stimulus Site" value="Calf" />
+			<EMGparam name="Segment" value="Calf-Lat mall" />
+			<EMGparam name="Latency" value="2.70000" />
+			<EMGparam name="Amplitude" value="4.00000" />
+			<EMGparam name="Conduction Velocity" value="44.00000" />
+			<EMGparam name="Distance" value="120.00000" />
+			<EMGparam name="Normal" value="yes" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Needle EMG Data">
+		<EMGData>
+			<EMGparam name="Muscle" value="Tensor Fasciae Latae" />
+			<EMGparam name="Side" value="L" />
+			<EMGparam name="Insertional" value="Normal" />
+			<EMGparam name="Fibs" value="0" />
+			<EMGparam name="Fascics" value="0" />
+			<EMGparam name="Duration" value="+1" />
+			<EMGparam name="Amplitude" value="Normal" />
+			<EMGparam name="Phases" value="Normal" />
+			<EMGparam name="Activation" value="Normal" />
+			<EMGparam name="Recruitment" value="-1" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Semitendinosus" />
+			<EMGparam name="Side" value="L" />
+			<EMGparam name="Insertional" value="Normal" />
+			<EMGparam name="Fibs" value="0" />
+			<EMGparam name="Fascics" value="0" />
+			<EMGparam name="Duration" value="+1" />
+			<EMGparam name="Amplitude" value="Normal" />
+			<EMGparam name="Phases" value="Normal" />
+			<EMGparam name="Activation" value="Normal" />
+			<EMGparam name="Recruitment" value="Normal" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Biceps Femoris (short)" />
+			<EMGparam name="Side" value="L" />
+			<EMGparam name="Insertional" value="Normal" />
+			<EMGparam name="Fibs" value="0" />
+			<EMGparam name="Fascics" value="0" />
+			<EMGparam name="Duration" value="Normal" />
+			<EMGparam name="Amplitude" value="Normal" />
+			<EMGparam name="Phases" value="Normal" />
+			<EMGparam name="Activation" value="Normal" />
+			<EMGparam name="Recruitment" value="Normal" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Vastus Medius" />
+			<EMGparam name="Side" value="L" />
+			<EMGparam name="Insertional" value="Normal" />
+			<EMGparam name="Fibs" value="0" />
+			<EMGparam name="Fascics" value="0" />
+			<EMGparam name="Duration" value="Normal" />
+			<EMGparam name="Amplitude" value="Normal" />
+			<EMGparam name="Phases" value="Normal" />
+			<EMGparam name="Activation" value="Normal" />
+			<EMGparam name="Recruitment" value="Normal" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Tibialis Anterior" />
+			<EMGparam name="Side" value="L" />
+			<EMGparam name="Insertional" value="Normal" />
+			<EMGparam name="Fibs" value="0" />
+			<EMGparam name="Fascics" value="0" />
+			<EMGparam name="Duration" value="+1" />
+			<EMGparam name="Amplitude" value="Normal" />
+			<EMGparam name="Phases" value="+1" />
+			<EMGparam name="Activation" value="Normal" />
+			<EMGparam name="Recruitment" value="-1" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Medial Gastrocnemius " />
+			<EMGparam name="Side" value="L" />
+			<EMGparam name="Insertional" value="Normal" />
+			<EMGparam name="Fibs" value="0" />
+			<EMGparam name="Fascics" value="0" />
+			<EMGparam name="Duration" value="Normal" />
+			<EMGparam name="Amplitude" value="Normal" />
+			<EMGparam name="Phases" value="Normal" />
+			<EMGparam name="Activation" value="Normal" />
+			<EMGparam name="Recruitment" value="Normal" />
+			<EMGparam name="Notes">
+				<EMGtext />
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Interpretations">
+		<EMGtext>This study is abnormal</EMGtext>
+		<EMGtext />
+		<EMGtext>Motor nerve conduction studies were performed of the left lower extremity (tibial at AHB), fibular at EDB and TA and in the distal right AHB tibial site. Fibular motor responses showed slight conduction slowing in the foreleg recording EDB and slightly low amplitude TA motor responses without conduction slowing or block across the fibular head on either study. Tibial motor responses are normal.</EMGtext>
+		<EMGtext />
+		<EMGtext>Sensory nerve conduction studies were performed in the bilateral lower extremities (bilateral sural and superficial fibular nerves, left medial plantar) and demonstrated absent superficial fibular responses bilaterally and an absent left medial plantar response. The sural sensory responses were symmetric and low normal in amplitude for age.</EMGtext>
+		<EMGtext />
+		<EMGtext>Needle EMG showed mild chronic reinnervation in the left TFL, semitendinosus, and TA. Medial gastrocnemius, vastus medius, and biceps femoris are normal.</EMGtext>
+		<EMGtext />
+		<EMGtext>Neuromuscular ultrasound of the left fibular nerve at the fib head and popliteal fossa was unremarkable and showed a continuous nerve without areas of focal enlargement.</EMGtext>
+		<EMGtext />
+		<EMGtext />
+		<EMGtext>Overall, in this clinical setting, these findings support the presence of:</EMGtext>
+		<EMGtext>1) a mild and chronic left sided L5 radiculopathy without acute denervation</EMGtext>
+		<EMGtext>2) a mild length dependent sensorimotor polyneuropathy likely secondary to the patient's long standing diabetes</EMGtext>
+		<EMGtext />
+		<EMGtext>There is no evidence of a focal left sided fibular or sciatic neuropathy.</EMGtext>
+		<EMGtext />
+		<EMGtext>Compared to the prior preoperative study performed in XXXXXXXXXX 2021, the L5 innervated muscles that demonstrated acute denervation, no longer do so, and show only findings of chronic reinnervation (consistent with recovery from prior L5 root injury). Evidence of length-dependent polyneuropathy persist on the current study and is little different from that on the study performed 3 years ago.</EMGtext>
+		<EMGtext />
+		<EMGtext>As the teaching physician identified below, I was physically present for the key portions of the electrodiagnostic examination and I prepared the interpretation at the time of the examination.</EMGtext>
+		<EMGtext />
+	</EMGData>
+	<EMGData name="Billing">
+		<EMGparam name="CPT" value="00000" />
+		<EMGparam name="Consult Modifier" value="" />
+		<EMGparam name="Primary Insurer" value="Not Recorded" />
+		<EMGData>
+			<EMGparam name="Procedure Code" value="95911" />
+			<EMGparam name="Charge Code" value="1911" />
+			<EMGparam name="Epic Charge Code" value="92295911" />
+			<EMGparam name="Quantity" value="1" />
+			<EMGparam name="Modifier" value="" />
+			<EMGparam name="Description" value="9 or 10 nerve conduction studies" />
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Procedure Code" value="95886" />
+			<EMGparam name="Charge Code" value="20" />
+			<EMGparam name="Epic Charge Code" value="92095886" />
+			<EMGparam name="Quantity" value="1" />
+			<EMGparam name="Modifier" value="" />
+			<EMGparam name="Description" value="Needle EMG-complete, extremity, NCS performed" />
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Procedure Code" value="76882" />
+			<EMGparam name="Charge Code" value="7882" />
+			<EMGparam name="Epic Charge Code" value="40276882" />
+			<EMGparam name="Quantity" value="1" />
+			<EMGparam name="Modifier" value="" />
+			<EMGparam name="Description" value="US Extremity Non-Vasc Limited" />
+		</EMGData>
+	</EMGData>
+</EMGLabExam>

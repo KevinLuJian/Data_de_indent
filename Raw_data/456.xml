@@ -1,0 +1,734 @@
+<EMGLabExam version="1.0">
+	<EMGData name="Exam">
+		<EMGparam name="RID" value="456"/>
+		<EMGparam name="Visit Number" value="XXXXXXXXXX"/>
+		<EMGparam name="Exam Date" value="2024-mm-dd hh:MM:ss"/>
+		<EMGparam name="Teaching" value="no"/>
+		<EMGparam name="Locked" value="yes"/>
+		<EMGparam name="Attending" value="Eric Logigian, M.D."/>
+		<EMGparam name="Signed On" value="2024-mm-dd hh:MM:ss"/>
+		<EMGparam name="Billed" value="yes"/>
+		<EMGparam name="Billed On" value="2024-mm-dd hh:MM:ss"/>
+		<EMGparam name="CIS Upload" value="yes"/>
+		<EMGparam name="Uploaded On" value="2024-mm-dd hh:MM:ss"/>
+		<EMGparam name="Exam Place" value="0"/>
+		<EMGparam name="OrderID" value="XXXXXXXXXX"/>
+	</EMGData>
+	<EMGData name="Patient">
+		<EMGparam name="PID" value="XXXXXXXXXX"/>
+		<EMGparam name="First Name" value="Jason"/>
+		<EMGparam name="Last Name" value="Liu"/>
+		<EMGparam name="DOB" value="1973-mm-dd hh:MM:ss"/>
+		<EMGparam name="Height" value="70"/>
+		<EMGparam name="Weight" value="0"/>
+		<EMGparam name="Gender" value="Male"/>
+		<EMGparam name="Phone" value=""/>
+	</EMGData>
+	<EMGData name="Location">
+		<EMGparam name="Location" value="Strong Memorial Hospital"/>
+		<EMGparam name="Address1" value="601 Elmwood Avenue, Box 673"/>
+		<EMGparam name="Address2" value="Rochester, New York 14642"/>
+		<EMGparam name="Phones" value="Appts: (585) 275-4568   Fax: (585) 784-7919"/>
+		<EMGparam name="OmegaID" value="10420"/>
+	</EMGData>
+	<EMGData name="Final Diagnosis">
+		<EMGData name="Ulnar Neuropathy, at the Elbow, left upper limb">
+			<EMGparam name="ICD10" value="G56.22"/>
+			<EMGparam name="ICD10 Description" value="Ulnar neuropathy at elbow"/>
+		</EMGData>
+		<EMGData name="C6 Radiculopathy">
+			<EMGparam name="ICD10" value="M54.12"/>
+			<EMGparam name="ICD10 Description" value="Radiculopathy, cervical region"/>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Referring Diagnosis">
+		<EMGData name="Ulnar Neuropathy, at the Elbow, left upper limb">
+			<EMGparam name="ICD10" value="G56.22"/>
+			<EMGparam name="ICD10 Description" value="Ulnar neuropathy at elbow"/>
+		</EMGData>
+		<EMGData name="C6 Radiculopathy">
+			<EMGparam name="ICD10" value="M54.12"/>
+			<EMGparam name="ICD10 Description" value="Radiculopathy, cervical region"/>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Exam Providers">
+		<EMGData name="Eric Logigian, M.D.">
+			<EMGparam name="ProviderID" value="8"/>
+			<EMGparam name="Role" value="Attending"/>
+			<EMGparam name="Last Name" value="Logigian"/>
+			<EMGparam name="First Name" value="Eric"/>
+			<EMGparam name="Middle Name" value=""/>
+			<EMGData name="Authorization">
+				<EMGparam name="AD" value="urmc-sh\elogigian"/>
+				<EMGparam name="EMAIL" value="Eric_Logigian@urmc.rochester.edu"/>
+				<EMGparam name="SMHSER" value="10549"/>
+			</EMGData>
+		</EMGData>
+		<EMGData name="Dr. Christina Perri">
+			<EMGparam name="ProviderID" value="6018"/>
+			<EMGparam name="Role" value="Provider"/>
+			<EMGparam name="Last Name" value="Aman"/>
+			<EMGparam name="First Name" value="Christina"/>
+			<EMGparam name="Middle Name" value=""/>
+			<EMGData name="Authorization"/>
+		</EMGData>
+		<EMGData name="Dr. James Alexander">
+			<EMGparam name="ProviderID" value="988"/>
+			<EMGparam name="Role" value="Attending Referrer"/>
+			<EMGparam name="Last Name" value="Alexander"/>
+			<EMGparam name="First Name" value="James"/>
+			<EMGparam name="Middle Name" value="A"/>
+			<EMGData name="Authorization">
+				<EMGparam name="SMHSER" value="18039"/>
+			</EMGData>
+		</EMGData>
+		<EMGData name="Dr. Fahed Saada">
+			<EMGparam name="ProviderID" value="5185"/>
+			<EMGparam name="Role" value="Referrer"/>
+			<EMGparam name="Last Name" value="Saada"/>
+			<EMGparam name="First Name" value="Fahed"/>
+			<EMGparam name="Middle Name" value=""/>
+			<EMGData name="Authorization">
+				<EMGparam name="SMHSER" value="51132"/>
+			</EMGData>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Patient History">
+		<EMGtext>Jason Liu is a 51-year-old man who presents for neuromuscular consultation and electrodiagnostic evaluation of left hand numbness and twitching.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Jason Liu reports that about one year ago, he began to notice tingling in the first two digits of the left hand. Occasionally, when he turned his head to this side this tingling would shoot down the arm. He saw his primary care physician who prescribed cyclobenzaprine and symptoms abated.</EMGtext>
+		<EMGtext/>
+		<EMGtext>About three or four months ago, he began to notice twitching of the muscle between the first and second digit (first dorsal interosseous). This happens just about every day and tends to occur when he is doing fine activities, such as holding a figurine to paint it or holding his phone. He does not notice weakness per se but feels like the find control of the hand is somewhat clumsier than prior. He has also seen twitching in the triceps muscle on the left. His PCP prescribed cyclobenzaprine again and the twitching is improved but has not gone away.</EMGtext>
+		<EMGtext/>
+		<EMGtext>He denies any difficulty with the right arm or the legs. He denies diplopia, dysarthria, dysphonia, or dysphagia.</EMGtext>
+		<EMGtext/>
+		<EMGtext>He notes that he sleeps prone with his arms folded and that he always has knots in his back and shoulder. He works a desk job and tends to lean his elbow on the desk. He also leans his elbow while driving.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Prior medical history is notable for IBS.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Medications: cyclobenzaprine 10 mg TID PRN</EMGtext>
+		<EMGtext/>
+		<EMGtext>Social history: Works as a graphic designer, partly at home and partly in the office. He denies tobacco use. He consumes alcohol 1-2 times a week. He uses marijuana.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Family History: Father had Parkinson's disease.</EMGtext>
+		<EMGtext/>
+		<EMGtext>A time out procedure was completed to verify the patient's identity including first and last name, date of birth and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.</EMGtext>
+	</EMGData>
+	<EMGData name="Clinical Examination">
+		<EMGtext>No Spurling's sign, negative Tinel's sign at the wrists or elbows, no Phalen's sign</EMGtext>
+		<EMGtext>Neck: supple</EMGtext>
+		<EMGtext>Cranial nerves: PERR, EOMI, visual fields full, no facial weakness, facial sensation normal, face symmetric, palate rises symmetrically uvula midline, shoulder shrug 5/5, tongue strength normal, no fasciculations</EMGtext>
+		<EMGtext>Motor: Normal bulk</EMGtext>
+		<EMGtext>
+			<EMGInsert name="Muscles Tension"/>
+		</EMGtext>
+		<EMGtext>Sensory: Mild hyperalgesia over the left thenar eminence and the lateral forearm.</EMGtext>
+		<EMGtext>
+			<EMGInsert name="Reflexes"/>
+		</EMGtext>
+		<EMGtext>Coordination: intact finger-nose-finger</EMGtext>
+		<EMGtext/>
+		<EMGtext>Gait: normal</EMGtext>
+	</EMGData>
+	<EMGData name="Neuromuscular Ultrasound">
+		<EMGtext/>
+		<EMGtext>
+			<EMGInsert name="Peripheral Nerves US"/>
+		</EMGtext>
+		<EMGtext/>
+	</EMGData>
+	<EMGData name="Reflexes">
+		<EMGData>
+			<EMGparam name="Reflex" value="Biceps"/>
+			<EMGparam name="R" value="1"/>
+			<EMGparam name="L" value="1"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Triceps"/>
+			<EMGparam name="R" value="1"/>
+			<EMGparam name="L" value="1"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Brachioradialis"/>
+			<EMGparam name="R" value="1"/>
+			<EMGparam name="L" value="1"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Patellar"/>
+			<EMGparam name="R" value="2"/>
+			<EMGparam name="L" value="2"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Achilles"/>
+			<EMGparam name="R" value="2"/>
+			<EMGparam name="L" value="2"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Reflex" value="Plantars"/>
+			<EMGparam name="R" value="down"/>
+			<EMGparam name="L" value="down"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Muscles Tension">
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Shoulder abduction"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Shoulder forward flexion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Shoulder external rotaion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Shoulder internal rotation"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Elbow flexion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Elbow extension"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Wrist flexion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Wrist extension"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Finger extension"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Finger spread"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Thumb flexion (FPL)"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Upper extremity"/>
+			<EMGparam name="Muscle" value="Thumb abduction"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Hip adduction"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Knee flexion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Knee extension"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Ankle dorsi-flexion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Ankle plantar-flexion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Ankle inversion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Ankle eversion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Toe extension"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Segment" value="Lower extremity"/>
+			<EMGparam name="Muscle" value="Toe flexion"/>
+			<EMGparam name="R" value="5"/>
+			<EMGparam name="L" value="5"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Peripheral Nerves US">
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar"/>
+			<EMGparam name="Site" value="wrist"/>
+			<EMGparam name="Side" value="Left"/>
+			<EMGparam name="CSA" value="5.10000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar"/>
+			<EMGparam name="Site" value="mid forearm"/>
+			<EMGparam name="Side" value="Left"/>
+			<EMGparam name="CSA" value="7.80000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar"/>
+			<EMGparam name="Site" value="cubital tunnel"/>
+			<EMGparam name="Side" value="Left"/>
+			<EMGparam name="CSA" value="6.80000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar"/>
+			<EMGparam name="Site" value="ulnar groove"/>
+			<EMGparam name="Side" value="Left"/>
+			<EMGparam name="CSA" value="13.30000"/>
+			<EMGparam name="Normal" value="no"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar"/>
+			<EMGparam name="Site" value="mid arm"/>
+			<EMGparam name="Side" value="Left"/>
+			<EMGparam name="CSA" value="6.60000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Motor Nerve Conduction">
+		<EMGData>
+			<EMGparam name="Nerve" value="Median.L/APB"/>
+			<EMGparam name="Stimulus Site" value="Wrist"/>
+			<EMGparam name="Latency" value="3.60000"/>
+			<EMGparam name="Amplitude" value="6.50000"/>
+			<EMGparam name="Conduction Velocity" value=""/>
+			<EMGparam name="Distance" value="70.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Median.L/APB"/>
+			<EMGparam name="Stimulus Site" value="Elbow"/>
+			<EMGparam name="Latency" value="7.90000"/>
+			<EMGparam name="Amplitude" value="5.90000"/>
+			<EMGparam name="Conduction Velocity" value="53.00000"/>
+			<EMGparam name="Distance" value="230.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar.L/ADM"/>
+			<EMGparam name="Stimulus Site" value="Wrist"/>
+			<EMGparam name="Latency" value="3.30000"/>
+			<EMGparam name="Amplitude" value="11.20000"/>
+			<EMGparam name="Conduction Velocity" value=""/>
+			<EMGparam name="Distance" value="70.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar.L/ADM"/>
+			<EMGparam name="Stimulus Site" value="Bel elbow"/>
+			<EMGparam name="Latency" value="6.90000"/>
+			<EMGparam name="Amplitude" value="10.50000"/>
+			<EMGparam name="Conduction Velocity" value="57.00000"/>
+			<EMGparam name="Distance" value="205.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar.L/ADM"/>
+			<EMGparam name="Stimulus Site" value="Ab elbow"/>
+			<EMGparam name="Latency" value="9.10000"/>
+			<EMGparam name="Amplitude" value="8.70000"/>
+			<EMGparam name="Conduction Velocity" value="45.00000"/>
+			<EMGparam name="Distance" value="100.00000"/>
+			<EMGparam name="Normal" value="no"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Sensory Nerve Conduction">
+		<EMGData>
+			<EMGparam name="Nerve" value="Median (Dig II).L"/>
+			<EMGparam name="Stimulus Site" value="Mid palm"/>
+			<EMGparam name="Segment" value="Mid palm-Dig II"/>
+			<EMGparam name="Latency" value="1.08000"/>
+			<EMGparam name="Amplitude" value="41.00000"/>
+			<EMGparam name="Conduction Velocity" value="56.00000"/>
+			<EMGparam name="Distance" value="60.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Median (Dig II).L"/>
+			<EMGparam name="Stimulus Site" value="Wrist"/>
+			<EMGparam name="Segment" value="Wrist-Dig II"/>
+			<EMGparam name="Latency" value="2.60000"/>
+			<EMGparam name="Amplitude" value="39.00000"/>
+			<EMGparam name="Conduction Velocity" value="50.00000"/>
+			<EMGparam name="Distance" value="130.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Median (Dig II).L"/>
+			<EMGparam name="Stimulus Site" value=""/>
+			<EMGparam name="Segment" value="Wrist-Mid palm"/>
+			<EMGparam name="Latency" value=""/>
+			<EMGparam name="Amplitude" value=""/>
+			<EMGparam name="Conduction Velocity" value="46.00000"/>
+			<EMGparam name="Distance" value="70.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar (Dig V).L"/>
+			<EMGparam name="Stimulus Site" value="Wrist"/>
+			<EMGparam name="Segment" value="Wrist-Dig V"/>
+			<EMGparam name="Latency" value="2.10000"/>
+			<EMGparam name="Amplitude" value="35.00000"/>
+			<EMGparam name="Conduction Velocity" value="52.00000"/>
+			<EMGparam name="Distance" value="110.00000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="F-Waves">
+		<EMGData>
+			<EMGparam name="Nerve" value="Median.L"/>
+			<EMGparam name="Latency" value="30.10000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Nerve" value="Ulnar.L"/>
+			<EMGparam name="Latency" value="32.20000"/>
+			<EMGparam name="Normal" value="yes"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Needle EMG Data">
+		<EMGData>
+			<EMGparam name="Muscle" value="Deltoid"/>
+			<EMGparam name="Side" value="L"/>
+			<EMGparam name="Insertional" value="Normal"/>
+			<EMGparam name="Fibs" value="0"/>
+			<EMGparam name="Fascics" value="0"/>
+			<EMGparam name="Duration" value="Normal"/>
+			<EMGparam name="Amplitude" value="Normal"/>
+			<EMGparam name="Phases" value="Normal"/>
+			<EMGparam name="Activation" value="Normal"/>
+			<EMGparam name="Recruitment" value="Normal"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Biceps Brachii"/>
+			<EMGparam name="Side" value="L"/>
+			<EMGparam name="Insertional" value="Normal"/>
+			<EMGparam name="Fibs" value="0"/>
+			<EMGparam name="Fascics" value="0"/>
+			<EMGparam name="Duration" value="Normal"/>
+			<EMGparam name="Amplitude" value="Normal"/>
+			<EMGparam name="Phases" value="Normal"/>
+			<EMGparam name="Activation" value="Normal"/>
+			<EMGparam name="Recruitment" value="Normal"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Triceps"/>
+			<EMGparam name="Side" value="L"/>
+			<EMGparam name="Insertional" value="Normal"/>
+			<EMGparam name="Fibs" value="0"/>
+			<EMGparam name="Fascics" value="0"/>
+			<EMGparam name="Duration" value="+1"/>
+			<EMGparam name="Amplitude" value="+1"/>
+			<EMGparam name="Phases" value="Normal"/>
+			<EMGparam name="Activation" value="Normal"/>
+			<EMGparam name="Recruitment" value="-1"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Flexor Carpi Radialis"/>
+			<EMGparam name="Side" value="L"/>
+			<EMGparam name="Insertional" value="Normal"/>
+			<EMGparam name="Fibs" value="0"/>
+			<EMGparam name="Fascics" value="0"/>
+			<EMGparam name="Duration" value="+1"/>
+			<EMGparam name="Amplitude" value="Normal"/>
+			<EMGparam name="Phases" value="+1"/>
+			<EMGparam name="Activation" value="Normal"/>
+			<EMGparam name="Recruitment" value="-1"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Flexor Digitorum Profundus III&amp;IV"/>
+			<EMGparam name="Side" value="L"/>
+			<EMGparam name="Insertional" value="Normal"/>
+			<EMGparam name="Fibs" value="0"/>
+			<EMGparam name="Fascics" value="0"/>
+			<EMGparam name="Duration" value="+1"/>
+			<EMGparam name="Amplitude" value="+1"/>
+			<EMGparam name="Phases" value="Normal"/>
+			<EMGparam name="Activation" value="Normal"/>
+			<EMGparam name="Recruitment" value="-1"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="First Dorsal Interosseous"/>
+			<EMGparam name="Side" value="L"/>
+			<EMGparam name="Insertional" value="Normal"/>
+			<EMGparam name="Fibs" value="0"/>
+			<EMGparam name="Fascics" value="0"/>
+			<EMGparam name="Duration" value="+1"/>
+			<EMGparam name="Amplitude" value="+1"/>
+			<EMGparam name="Phases" value="Normal"/>
+			<EMGparam name="Activation" value="-1"/>
+			<EMGparam name="Recruitment" value="Normal"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Muscle" value="Extensor Indicis Proprius"/>
+			<EMGparam name="Side" value="L"/>
+			<EMGparam name="Insertional" value="Normal"/>
+			<EMGparam name="Fibs" value="0"/>
+			<EMGparam name="Fascics" value="0"/>
+			<EMGparam name="Duration" value="Normal"/>
+			<EMGparam name="Amplitude" value="Normal"/>
+			<EMGparam name="Phases" value="Normal"/>
+			<EMGparam name="Activation" value="Normal"/>
+			<EMGparam name="Recruitment" value="Normal"/>
+			<EMGparam name="Notes">
+				<EMGtext/>
+			</EMGparam>
+		</EMGData>
+	</EMGData>
+	<EMGData name="Interpretations">
+		<EMGtext>Electrodiagnostic Impression:</EMGtext>
+		<EMGtext>This is an abnormal study.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Motor study of the left median nerve was normal. Motor study of the left ulnar nerve revealed slowing of conduction velocity across the elbow. Median and ulnar F waves were normal.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Sensory studies of the left median and ulnar nerves were normal.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Needle EMG of the left upper extremity revealed chronic reinnervation of the triceps, flexor carpi radialis, flexor digitorum profundus IV, and first dorsal interosseous. Deltoid, biceps, and extensor indicis proprius were normal.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Neuromuscular ultrasound of the left ulnar nerve was notable for enlargement of the ulnar nerve in the ulnar groove, with normal cross-sectional area at all other sites.</EMGtext>
+		<EMGtext/>
+		<EMGtext/>
+		<EMGtext>Overall, there is electrodiagnostic evidence of:</EMGtext>
+		<EMGtext>1) A mild, chronic left ulnar neuropathy at the elbow (e.g., ulnar groove)</EMGtext>
+		<EMGtext>2) A mild, chronic left C6 (versus C7) cervical radiculopathy.</EMGtext>
+		<EMGtext/>
+		<EMGtext>There is no electrodiagnostic evidence of a generalized polyneuropathy or motor neuronopathy.</EMGtext>
+		<EMGtext/>
+		<EMGtext>Clinical impression and recommendations:</EMGtext>
+		<EMGtext>The patient's twitching of the first dorsal interosseous muscle is likely due to the mild left ulnar neuropathy at the elbow, while the radicular pain and sensory loss over the lateral forearm and hand is likely due to his mild chronic left C6 cervical radiculopathy.</EMGtext>
+		<EMGtext/>
+		<EMGtext>We discussed the presence of both a radiculopathy and a mononeuropathy. Given they are mild and chronic without evidence of active denervation, there is not role for procedural intervention at this time. We discussed lifestyle modifications, including modifying sleeping position (prone with arms bent and head turned to the side likely affects both the cervical roots and ulnar nerve in his case), ergonomic evaluation of his workspace, and use of an elbow pad to aid with cushioning the nerve. We discussed that this can progress and if he develops persistent numbness or intrinsic hand weakness that there could be a role for procedural intervention (e.g., ulnar nerve decompression and transposition) in the future, but that this is not currently indicated and we hope to forestall it with the aforementioned conservative measures.</EMGtext>
+		<EMGtext/>
+		<EMGtext>With respect to his cervical radiculopathy, this seems to be improving, and we would favor a conservative course for now. He should avoid eccentric head positions when sleeping, (e.g., use of 2 pillows if lying on his side, 1 pillow if lying on his back). If the symptoms recur or progress, recommend cervical MRI and depending on results referral for physical therapy versus surgical consultation.</EMGtext>
+		<EMGtext/>
+		<EMGtext>We will leave follow up open-ended but would be happy to see him back should new questions or concerns arise.</EMGtext>
+		<EMGtext/>
+		<EMGtext>As the teaching physician identified below, I was physically present for the key portions of the electrodiagnostic examination and I prepared the interpretation at the time of the examination.</EMGtext>
+		<EMGtext/>
+	</EMGData>
+	<EMGData name="Billing">
+		<EMGparam name="CPT" value="99203"/>
+		<EMGparam name="Consult Modifier" value=""/>
+		<EMGparam name="Primary Insurer" value="Not Recorded"/>
+		<EMGData>
+			<EMGparam name="Procedure Code" value="95908"/>
+			<EMGparam name="Charge Code" value="1908"/>
+			<EMGparam name="Epic Charge Code" value="92295908"/>
+			<EMGparam name="Quantity" value="1"/>
+			<EMGparam name="Modifier" value=""/>
+			<EMGparam name="Description" value="3 or 4 nerve conduction studies"/>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Procedure Code" value="95886"/>
+			<EMGparam name="Charge Code" value="20"/>
+			<EMGparam name="Epic Charge Code" value="92095886"/>
+			<EMGparam name="Quantity" value="1"/>
+			<EMGparam name="Modifier" value=""/>
+			<EMGparam name="Description" value="Needle EMG-complete, extremity, NCS performed"/>
+		</EMGData>
+		<EMGData>
+			<EMGparam name="Procedure Code" value="76882"/>
+			<EMGparam name="Charge Code" value="7882"/>
+			<EMGparam name="Epic Charge Code" value="40276882"/>
+			<EMGparam name="Quantity" value="1"/>
+			<EMGparam name="Modifier" value=""/>
+			<EMGparam name="Description" value="US Extremity Non-Vasc Limited"/>
+		</EMGData>
+	</EMGData>
+</EMGLabExam>
