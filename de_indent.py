@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import ollama
 import argparse
 import os
+import re
 
 ## What needs to be deindentified is the following:
 ### <Exam>:
@@ -29,31 +30,30 @@ def LLM_processing(Patient_name, history_text):
 
     Do not remove any doctor names or other non-patient-related information. If no de-identification is needed, leave the text unchanged.
 
-    Output only the de-identified patient history without any additional text, headers, or explanations.
+    Wrap the de-identified patient history with <text></text> tags.
 
     Patient Name: {Patient_name}
-    Text:
+    patient history:
     {history_text.strip()}
     '''
 
 
     model = 'internlm2:20b'
-    response = ollama.generate(model=model, prompt=Prompt)
-    deindentified_text = response['response']
-    maximum = 10 # try to deindentifiy the data 10 times maximum.
-    iteration = 0
-    while abs(len(deindentified_text) - len(history_text)) > 20:
-        print("The de-indentified text is too different from the original text. Trying again....")
-        # print("Original text is: ", history_text)
-        # print("De-indentified text is: ", deindentified_text)
+   
+    
+    pattern = re.compile(r'<text>(.*?)</text>', re.DOTALL)
 
+    while True:
         response = ollama.generate(model=model, prompt=Prompt)
-        deindentified_text = response['response']
-        iteration += 1
-        if iteration > maximum:
-            break
-
-    return deindentified_text
+        answer = response['response']
+        match = pattern.search(answer)
+        if match is None:
+            continue
+        deindentified_text = match.group(1)
+        if len(deindentified_text) == 0:
+            continue
+        print(f"LLM generated response: {answer}")
+        return deindentified_text
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='De-identify XML data.')
@@ -77,7 +77,6 @@ def de_indent_file(file_path, de_indent_folder):
 
     Exam_date = exam.find(".//EMGparam[@name='Exam Date']")
     year = Exam_date.get('value')[:4]
-    print(year)
     Exam_date.set('value',f"{year}-mm-dd hh:MM:ss")
 
     Signed_on = exam.find(".//EMGparam[@name='Signed On']")
@@ -123,7 +122,7 @@ def de_indent_file(file_path, de_indent_folder):
 
 
     ## Deal with Patient History
-    print("patient name is ", Patient_name)
+    print("Patient name:", Patient_name)
     # Patient_History = root.find(".//EMGData[@name='Patient History']")
     history_text = ""
     for text_elem in root.findall(".//EMGData[@name='Patient History']/EMGtext"):
@@ -131,7 +130,9 @@ def de_indent_file(file_path, de_indent_folder):
             history_text = text_elem.text.strip() + " "
             text = LLM_processing(Patient_name, history_text)
             text_elem.text = text
-            print(f"changing {history_text} \n\n to \n\n{text}")
+            print(f"Original report: {history_text}")
+            print(f"De-identified report: {text}")
+            
             print("=====================================")
 
 

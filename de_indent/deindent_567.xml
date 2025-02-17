@@ -100,13 +100,17 @@
 		</EMGData>
 	</EMGData>
 	<EMGData name="Patient History">
-		<EMGtext> XXXXXXXX, a 31-year-old right-handed woman, was referred by Dr. Jacob for an electrodiagnostic evaluation to determine whether she has a left-sided brachial plexopathy or cervical radiculopathy.</EMGtext>
+		<EMGtext>
+XXX XXXX is a 31 year old right handed woman who was referred by Dr. Jacob for an electrodiagnostic evaluation of a left sided brachial plexopathy versus cervical radiculopathy.
+</EMGtext>
 		<EMGtext />
 		<EMGtext>
-The patient reports intermittent numbness and tingling of her XXXXXXXX hand and forearm. On occasion, she has similar symptoms in the right hand. The symptoms have been present for at least 2 years, but are worse in the last 1 year. The symptoms are most notable with use of the hands during the day, when driving, and also occur at night. Occasionally the numbness will also affecting digit 1 and 5. She does report weakness in her left arm as well. She has some local neck pain, but no clear radicular pain.</EMGtext>
+The patient reports intermittent numbness and tingling of her left hand and forearm. On occasion, she has similar symptoms in the right hand. The symptoms have been present for at least 2 years, but are worse in the last year. The symptoms are most notable with use of the hands during the day, when driving, and also occur at night. Occasionally the numbness will also affecting digit 1 and 5. She does report weakness in her left arm as well. She has some local neck pain, but no clear radicular pain.
+</EMGtext>
 		<EMGtext />
-		<EMGtext>XXXXX Aee
-A time out procedure was completed to verify the patient's identity including first and last name, date of birth and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.</EMGtext>
+		<EMGtext>
+A time out procedure was completed to verify the patient's identity including first and last name, date of birth and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.
+</EMGtext>
 	</EMGData>
 	<EMGData name="Clinical Examination">
 		<EMGtext>No Spurling's sign with head tilt bilaterally</EMGtext>

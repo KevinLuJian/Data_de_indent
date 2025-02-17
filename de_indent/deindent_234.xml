@@ -108,13 +108,21 @@
 		</EMGData>
 	</EMGData>
 	<EMGData name="Patient History">
-		<EMGtext>XXXXX XXXXXXXX is a 57 year old diabetic female referred by Dr. Stone and Cassondra Mejak NP of neurosurgery for evaluation of L5 versus sciatic neuropathy in the setting of prior L5-S1 decompression in 2021.</EMGtext>
+		<EMGtext>
+XXXXXX is a 57-year-old diabetic female referred by Dr. Stone and Cassondra Mejak NP of neurosurgery for evaluation of L5 versus sciatic neuropathy in the setting of prior L5-S1 decompression in 2021.
+</EMGtext>
 		<EMGtext />
-		<EMGtext>XXX following her prior surgery, she reported immediate relief of her radicular pain (shooting down the back of her left leg to her lateral leg and into the dorsum of her foot). She was stable until April of 2023 when, in the absence of trauma or any other obvious trigger, she had sudden recurrence of her prior radicular pain although now more concentrated in her distal left lower extremity below the knee down the lateral leg and into the dorsum of her foot. She also noted some mild foot extensor weakness with a few falls or near falls (balance issues). She underwent repeat MRI L spine m/24 which showed continued L5 disc extrusion with cord narrowing and foraminal narrowing at L5-S1 in addition to expected post surgical changes.</EMGtext>
+		<EMGtext>
+Following her prior surgery she reported immediate relief of her radicular pain (shooting down the back of her left leg to her lateral leg and into the dorsum of her foot). She was stable until April of 2023 when, in the absence of trauma or any other obvious trigger, she had sudden recurrence of her prior radicular pain although now more concentrated in her distal left lower extremity below the knee down the lateral leg and into the dorsum of her foot. She also noted some mild foot extensor weakness with a few falls or near falls (balance issues). She underwent repeat MRI L spine m/24 which showed continued L5 disc extrusion with cord narrowing and foraminal narrowing at L5-S1 in addition to expected post surgical changes.
+</EMGtext>
 		<EMGtext />
-		<EMGtext>XXXXX has a medical history relevant for T2DM diagnosed at least 15 years ago and presumed history of diabetic polyneuropathy.</EMGtext>
+		<EMGtext>
+XXXXX XXXXXX has a medical history relevant for T2DM diagnosed at least 15 years ago and presumed history of diabetic polyneuropathy.
+</EMGtext>
 		<EMGtext />
-		<EMGtext>XXXXX Kanan completed a time out procedure to verify their identity, including first and last name, date of birth, and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.</EMGtext>
+		<EMGtext>
+A time out procedure was completed to verify the patient's identity including first and last name, date of birth and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.
+</EMGtext>
 	</EMGData>
 	<EMGData name="Clinical Examination">
 		<EMGtext />

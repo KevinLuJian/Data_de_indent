@@ -42,6 +42,7 @@ The automatic de-identification of patient history utilizes the open-source soft
 After installing Ollama, install the required LLM by running the following command in the terminal:
 
 ```bash
+pip install ollama
 ollama run internlm2:20
 ```
 
