@@ -50,5 +50,5 @@ python de_indent.py --target Raw_data --de_indent de_indent
 
 ```
 
-This command will automatically convert all files in Raw_data to de-identified files saved in the de_indent folder.
+This command will automatically convert all files in Raw_data folder to de-identified files saved in the de_indent folder.
 
