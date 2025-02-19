@@ -3,7 +3,7 @@
 This repository contains a script for information de-identification.
 
 ### Data Fields to Be Removed:
-**Exam:**
+**<Exam>:**
 - Visit Number  
 - Exam Date  
 - Signed on  
@@ -11,14 +11,14 @@ This repository contains a script for information de-identification.
 - Uploaded on  
 - OrderID  
 
-**Patient:**  
+**<Patient>:**  
 - PID  
 - First Name  
 - Last Name  
 - DOB  
 - Phone  
 
-**Patient History **
+**<Patient History>**
 The name of the patient is being replaced as xxxxxx, and all the date, except year, has also been removed.
 
 ## Limitation ##
