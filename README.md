@@ -18,7 +18,7 @@ This repository contains a script for information de-identification.
 - DOB  
 - Phone  
 
-**Patient History **
+**Patient History:**
 The name of the patient is being replaced as xxxxxx, and all the date, except year, has also been removed.
 
 ## Limitation ##
