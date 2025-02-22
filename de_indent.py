@@ -33,11 +33,10 @@ def LLM_processing(Patient_name, history_text):
     Wrap the de-identified patient history with <text></text> tags.
 
     Patient Name: {Patient_name}
-    patient history:
+    non-deindentified patient history:
     {history_text.strip()}
+    deindentified patient history:
     '''
-
-
     model = 'internlm2:20b'
    
     
@@ -52,8 +51,76 @@ def LLM_processing(Patient_name, history_text):
         deindentified_text = match.group(1)
         if len(deindentified_text) == 0:
             continue
-        print(f"LLM generated response: {answer}")
+        
         return deindentified_text
+
+def checking_LLM(original, deindentified):
+    # # Check if the de-identified text is correct
+    # print("Original text:", original)
+    # print("De-identified text:", deindentified)
+    # print("Is the de-identified text correct? (yes/no)")
+    Prompt = f'''
+    Task: Text Verification and De-identification Consistency
+    You are an expert in text verification and de-identification consistency. Your task is to compare the original text with the de-identified text and determine whether they convey the same meaning.
+
+    Key De-identification Rules:
+
+    Specific months and days are replaced with xxxx, years information is acceptable and can be preserved.
+    Patient names are replaced with XXXXXXXX.
+    These replacements are expected and acceptable.
+    Aside from these modifications, the two texts should be nearly identical. Your goal is to check if the de-identified text deviates too much from the original.
+
+    Original text: 
+    {original}
+
+    De-identified text: 
+    {deindentified}
+
+    You answer should be one of the following:
+    A. Match
+    B. Mismatch
+    End your response with:
+    My answer is ... (followed by A or B)
+    '''
+    model = 'llama3.1'
+   
+    
+    pattern = r"My answer is (.*)"
+
+    while True:
+        response = ollama.generate(model=model, prompt=Prompt)
+        answer = response['response']
+        match = re.search(pattern, answer)
+        if match is None:
+            continue
+        option = match.group(1)
+        print(answer)
+        print("option:", option)
+        
+        return option
+    '''
+    Task: Text Verification and De-identification Consistency
+    You are an expert in text verification and de-identification consistency. Your task is to compare the original text with the de-identified text and determine whether they convey the same meaning.
+
+    Key De-identification Rules:
+
+    Specific months and days are replaced with xxxx, years information is acceptable and can be preserved.
+    Patient names are replaced with XXXXXXXX.
+    These replacements are expected and acceptable.
+    Aside from these modifications, the two texts should be nearly identical. Your goal is to check if the de-identified text deviates too much from the original.
+
+    Original text: 
+    Medications: cyclobenzaprine 10 mg TID PRN”
+
+    De-identified text: 
+    XXXXX was diagnosed with hypertension on October 1, 2019. He began taking lisinopril 5 mg daily to manage his blood pressure. The patient has shown good compliance with the medication regimen and has maintained stable blood pressure readings throughout the year. His most recent lab results indicate normal renal function.
+    
+    You answer should be one of the following:
+    A. Match
+    B. Mismatch
+    End your response with:
+    My answer is ... (followed by A or B)
+    '''
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='De-identify XML data.')
@@ -123,17 +190,24 @@ def de_indent_file(file_path, de_indent_folder):
 
     ## Deal with Patient History
     print("Patient name:", Patient_name)
-    # Patient_History = root.find(".//EMGData[@name='Patient History']")
     history_text = ""
     for text_elem in root.findall(".//EMGData[@name='Patient History']/EMGtext"):
         if text_elem.text:
             history_text = text_elem.text.strip() + " "
-            text = LLM_processing(Patient_name, history_text)
-            text_elem.text = text
-            print(f"Original report: {history_text}")
-            print(f"De-identified report: {text}")
+            while True:
+                text = LLM_processing(Patient_name, history_text)
+                text_elem.text = text
+                print(f"Original report: \n {history_text}")
+                print(f"De-identified report: {text}")
+                print("=====================================")
+                print("Checking the de-identified text....")
+                answer = checking_LLM(history_text, text)
+                if 'A' in answer:
+                    print("The de-identified text is matched.")
+                    break
+                else:
+                    print("The de-identified text is mismatched, try again.")
             
-            print("=====================================")
 
 
     # Save to a new folder

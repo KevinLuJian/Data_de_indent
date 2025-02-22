@@ -39,9 +39,11 @@ After installing Ollama, install the required LLM by running the following comma
 ```bash
 pip install ollama
 ollama run internlm2:20
+ollama run llama3.1
 ```
 
-In this script, we use internlm2:20, which requires approximately 14 GB of graphics memory.
+In this script, we use internlm2:20 for patient info de-identification, which requires approximately 14 GB of graphics memory.
+As for the verification process(used for hallucination detection), we use llama3.1, which requres about 7 GB of graphic memory. 
 
 To run the code, use the following command:
 

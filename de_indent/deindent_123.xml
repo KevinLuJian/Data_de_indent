@@ -101,11 +101,10 @@
 	</EMGData>
 	<EMGData name="Patient History">
 		<EMGtext>
-XXXXX is a 57 year old man who was referred by Dr. John Orsini for electrodiagnostic evaluation of lumbar stenosis.
 </EMGtext>
 		<EMGtext />
 		<EMGtext>
-For full details, please see Dr. Orsini's note from XXXXXXXX.
+For full details, please see Dr. Orsini's note from 2024.
 </EMGtext>
 		<EMGtext />
 		<EMGtext>
@@ -113,7 +112,7 @@ The patient has been seen by neurology and neurosurgery over the years (last vis
 </EMGtext>
 		<EMGtext />
 		<EMGtext>
-XXXXX has been experiencing intermittent numbness and tingling in both feet, which has made it difficult for him to climb stairs and stand or walk for extended periods due to burning muscle pain. He also suffers from several years of left shoulder and upper arm pain. Additionally, he experiences right hip and thigh pain as well as whole body aches that are particularly severe in the chest, neck, and face.
+The patient continues to report intermittent numbness and tingling in both feet, difficulty with going up stairs and with standing and walking for an extended period of time due to burning pain in his muscles. He also reports several years of left shoulder and upper arm pain. right hip and thigh pain as well as whole body aches that are worse in the chest, neck, and face.
 </EMGtext>
 		<EMGtext />
 		<EMGtext />

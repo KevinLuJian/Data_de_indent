@@ -97,20 +97,16 @@
 	</EMGData>
 	<EMGData name="Patient History">
 		<EMGtext>
-XXXXX XXXX is a 61 year old male with a history of type 1 diabetes and seropositive myasthenia gravis who was referred by Dr. Alexis Lizarraga for evaluation of neuropathy characterized by numbness and painful tingling in his legs and hands.
+XXXXXXXX is a 61 year old male with a history of type 1 diabetes and seropositive myasthenia gravis who was referred by Dr. Alexis Lizarraga for evaluation of neuropathy characterized by numbness and painful tingling in his legs and hands.
 </EMGtext>
 		<EMGtext />
 		<EMGtext>
-XXXXX XXXX has reported that their left leg is numb up to below their knee. They also mention numbness in the right leg but note that it is less severe compared to the left leg. He experiences numbness and tingling in his fingertips, more prominent over the 2nd and 3rd digits. The patient reports pain in his ankles and hands, which has been alleviated by duloxetine.
+    XXXXX reports that his left leg is numb up to below his knee. XXXXXXXX also reports numbness in right leg but states that the left leg is worse. XXXXXXXX reports numbness and tingling in his fingertips, worse over the 2nd and 3rd digits. XXXXXXXX reports pain in his ankles and hands, for which duloxetine is helping.
 </EMGtext>
 		<EMGtext />
-		<EMGtext>
-For a complete history, please see Dr. Lizarraga's neuromuscular clinic note from 2024.
-</EMGtext>
+		<EMGtext>For a complete history, please see Dr. Lizarraga's neuromuscular clinic note from 2024.</EMGtext>
 		<EMGtext />
-		<EMGtext>
-A time out procedure was completed to verify the patient's identity including first and last name, date of birth and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.
-</EMGtext>
+		<EMGtext>A time out procedure was completed to verify the patient's identity including first and last name, date of birth and confirmed with id band. The correct procedure and site were reviewed with the patient. Verbal consent was obtained prior to testing. During performance of nerve conduction studies, distal limb temperature was maintained between 32 to 36 degrees Centigrade.</EMGtext>
 	</EMGData>
 	<EMGData name="Clinical Examination">
 		<EMGtext>Motor: Normal tone. Decreased muscle bulk in bilateral lower extremities.</EMGtext>
